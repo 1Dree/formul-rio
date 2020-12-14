@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>validação de Formulário</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <main>
+      <form>
+        <label for="name">
+          <input type="text" name="name" id="name" placeholder="Nome" />
+          <span>deve conter apenas letras</span>
+        </label>
+
+        <label for="pass">
+          <input type="password" name="pass" id="pass" placeholder="Senha" />
+          <span>no mínimo 8 e no máximo 14 caracteres</span>
+        </label>
+
+        <button type="button" id="action">Enviar</button>
+
+        <div id="congratulations">
+          <h2>Congratulations!</h2>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        Projeto inspirado no vídeo do canal
+        <a
+          href="https://www.youtube.com/watch?v=hF_VMWnsY00&t=10400s"
+          target="_blank"
+          >Bonieky Lacerda</a
+        >
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
